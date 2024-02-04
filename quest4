@@ -1,0 +1,11 @@
+program quest4;
+var a,b,c,d,e:integer;
+begin
+
+  Readln(a,b,c,d);
+  if a > 0 then e:=e+1;
+  if b > 0 then e:=e+1;
+  if c > 0 then e:=e+1;
+  if d > 0 then e:=e+1;
+  writeln('Otvet: ',e);
+end.
