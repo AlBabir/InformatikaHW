@@ -1,0 +1,10 @@
+program quest2;
+var a:integer;
+begin
+
+  Readln(a);
+  if a > 0 then writeln(a + 1)
+  else writeln('Otvet: ',a - 2);
+  
+
+end.
