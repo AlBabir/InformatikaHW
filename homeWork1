@@ -1,0 +1,10 @@
+program homeWork1;
+var a,b,c:integer;
+begin
+
+  Readln(a,b);
+  if a > b then c:= a - b
+  else c := b - a;
+  writeln('Otvet: ',c);
+
+end.
