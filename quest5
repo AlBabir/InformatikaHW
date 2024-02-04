@@ -1,0 +1,10 @@
+program quest5;
+var a,b,c,d,e:integer;
+begin
+
+  Readln(a,b,c);
+  if ((a mod 2) = 0) then e:=e+1;
+  if ((b mod 2) = 0) then e:=e+1;
+  if ((c mod 2) = 0) then e:=e+1;
+  writeln('Otvet: ',e);
+end.
