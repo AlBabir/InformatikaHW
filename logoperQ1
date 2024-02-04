@@ -1,0 +1,8 @@
+program q1;
+var height,weight:integer;
+begin
+  writeln('введите рост и вес для отправки заявки');
+  readln(height,weight);
+  if (height > 170) and (weight < 58) then writeln('заявка принята')
+  else writeln('заявка не принята');
+end.
