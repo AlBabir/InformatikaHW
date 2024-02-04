@@ -1,0 +1,9 @@
+program q2;
+var a:integer;
+begin
+  
+  readln(a);
+  if (a < 10) and (a > -10) then writeln('от 10 до -10')
+  else writeln('не от 10 до -10');
+  
+end.
